@@ -14,6 +14,6 @@ class SiswaController extends Controller
         ->where('nis', 'like', '%11%')
         ->get();
 
-        return view('siswa', ['siswa' => $siswa]);
+    return view('siswa', ['siswa' => $siswa]);
     }
 }

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Tabel Absen</title>
+    <title>Absen</title>
 </head>
 <body>
     <table>

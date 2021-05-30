@@ -13,6 +13,6 @@ class KelasController extends Controller
         ->select('*')
         ->get();
 
-        return view('kelas', ['kelas' => $kelas]);
+    return view('kelas', ['kelas' => $kelas]);
     }
 }

@@ -15,6 +15,6 @@ class AbsenController extends Controller
         ->where('absen', '=', 'T')
         ->get();
 
-        return view('absen', ['absen' => $absen]);
+    return view('absen', ['absen' => $absen]);
     }
 }

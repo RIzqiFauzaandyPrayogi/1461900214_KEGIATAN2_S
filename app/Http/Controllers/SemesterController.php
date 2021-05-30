@@ -14,6 +14,6 @@ class SemesterController extends Controller
         ->select('semester.*', 'absen.id_semester')
         ->get();
 
-        return view('semester', ['semester' => $semester]);
+    return view('semester', ['semester' => $semester]);
     }
 }

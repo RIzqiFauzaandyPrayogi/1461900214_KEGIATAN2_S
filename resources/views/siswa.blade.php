@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Tabel Siswa</title>
+    <title>Siswa</title>
 </head>
 <body>
     <table>

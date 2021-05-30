@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Tabel Semester</title>
+    <title>Semester</title>
 </head>
 <body>
     <table>

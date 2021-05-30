@@ -20,7 +20,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/absen', [AbsenController::class, 'index'])->name('absen');
-Route::get('/kelas', [KelasController::class, 'index'])->name('kelas');
-Route::get('/semester', [SemesterController::class, 'index'])->name('semester');
-Route::get('/siswa', [SiswaController::class, 'index'])->name('siswa');
+Route::get('/absen', 
+[AbsenController::class, 'index'])->name('absen');
+
+Route::get('/kelas', 
+[KelasController::class, 'index'])->name('kelas');
+
+Route::get('/semester', 
+[SemesterController::class, 'index'])->name('semester');
+
+Route::get('/siswa', 
+[SiswaController::class, 'index'])->name('siswa');
